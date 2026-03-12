@@ -1,0 +1,155 @@
+.admin-dashboard {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  min-height: calc(100vh - 70px);
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.admin-header h1 {
+  color: #000000;
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin: 0;
+}
+
+.quizzes-table-container {
+  background: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+  animation: slideUp 0.6s ease;
+}
+
+.quizzes-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.quizzes-table thead {
+  background: var(--primary);
+  color: white;
+}
+
+.quizzes-table th {
+  padding: 1.5rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+.quizzes-table td {
+  padding: 1.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.quizzes-table tbody tr {
+  transition: all 0.3s ease;
+}
+
+.quizzes-table tbody tr:hover {
+  background: #f9fafb;
+}
+
+.badge {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.action-cells {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.btn-sm {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.85rem;
+  border-radius: 0.4rem;
+}
+
+.btn-edit {
+  background: #3b82f6;
+  color: white;
+}
+
+.btn-edit:hover {
+  background: #2563eb;
+}
+
+.btn-delete {
+  background: #ef4444;
+  color: white;
+}
+
+.btn-delete:hover:not(:disabled) {
+  background: #dc2626;
+}
+
+.btn-delete:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.btn-stats {
+  background: #10b981;
+  color: white;
+}
+
+.btn-stats:hover {
+  background: #059669;
+}
+
+.empty-state {
+  background: white;
+  border-radius: 1rem;
+  padding: 4rem 2rem;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+}
+
+.empty-state p {
+  color: #6b7280;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .admin-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .admin-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .quizzes-table {
+    font-size: 0.9rem;
+  }
+
+  .quizzes-table th,
+  .quizzes-table td {
+    padding: 1rem;
+  }
+
+  .action-cells {
+    flex-direction: column;
+  }
+
+  .btn-sm {
+    width: 100%;
+    text-align: center;
+  }
+}
