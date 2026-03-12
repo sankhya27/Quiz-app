@@ -1,0 +1,91 @@
+{
+  "hash": "7139b387",
+  "configHash": "84da9199",
+  "lockfileHash": "ed82f3df",
+  "browserHash": "7b7f9943",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "47026043",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "f779d852",
+      "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "735d78c1",
+      "needsInterop": true
+    },
+    "jspdf": {
+      "src": "../../node_modules/jspdf/dist/jspdf.es.min.js",
+      "file": "jspdf.js",
+      "fileHash": "4820c02b",
+      "needsInterop": false
+    },
+    "use-sound": {
+      "src": "../../node_modules/use-sound/dist/use-sound.esm.js",
+      "file": "use-sound.js",
+      "fileHash": "196fcfe6",
+      "needsInterop": false
+    },
+    "react-chartjs-2": {
+      "src": "../../node_modules/react-chartjs-2/dist/index.js",
+      "file": "react-chartjs-2.js",
+      "fileHash": "74d62a32",
+      "needsInterop": false
+    },
+    "chart.js": {
+      "src": "../../node_modules/chart.js/dist/chart.js",
+      "file": "chart__js.js",
+      "fileHash": "70b5f368",
+      "needsInterop": false
+    },
+    "jspdf-autotable": {
+      "src": "../../node_modules/jspdf-autotable/dist/jspdf.plugin.autotable.mjs",
+      "file": "jspdf-autotable.js",
+      "fileHash": "73e66afb",
+      "needsInterop": false
+    },
+    "canvas-confetti": {
+      "src": "../../node_modules/canvas-confetti/dist/confetti.module.mjs",
+      "file": "canvas-confetti.js",
+      "fileHash": "2b2651cd",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "html2canvas.esm-YUSZVQWT": {
+      "file": "html2canvas__esm-YUSZVQWT.js"
+    },
+    "purify.es-WN2CQXHP": {
+      "file": "purify__es-WN2CQXHP.js"
+    },
+    "index.es-RSJXCIQF": {
+      "file": "index__es-RSJXCIQF.js"
+    },
+    "howler-HEVASIF5": {
+      "file": "howler-HEVASIF5.js"
+    },
+    "chunk-X5EBYUPF": {
+      "file": "chunk-X5EBYUPF.js"
+    },
+    "chunk-SITVF2AJ": {
+      "file": "chunk-SITVF2AJ.js"
+    },
+    "chunk-NO6UH6X3": {
+      "file": "chunk-NO6UH6X3.js"
+    },
+    "chunk-ZC7HT7OM": {
+      "file": "chunk-ZC7HT7OM.js"
+    },
+    "chunk-5WRI5ZAA": {
+      "file": "chunk-5WRI5ZAA.js"
+    }
+  }
+}

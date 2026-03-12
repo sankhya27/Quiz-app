@@ -1,4 +1,10 @@
-const API_BASE_URL = 'http://localhost:5000/api';
+const getBaseUrl = () => {
+  const url = import.meta.env.VITE_API_URL || 'https://quiz-app-9fjj.onrender.com/api';
+  return url.endsWith('/') ? url.slice(0, -1) : url;
+};
+
+const API_BASE_URL = getBaseUrl();
+console.log('API Base URL:', API_BASE_URL);
 
 // ============ USER ENDPOINTS ============
 
